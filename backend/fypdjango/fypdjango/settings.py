@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'fypdjango.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+        'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fypdatabase',
-        'USER': 'mydatabaseuser',
-        'PASSWORD': 'admin',
-        'HOST': '127.0.0.1',
+        'NAME': 'FypDatabase',
+        'USER': 'postgres',
+        'PASSWORD': '12345678',
+        'HOST': 'fyp.cufxkfb3endz.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
