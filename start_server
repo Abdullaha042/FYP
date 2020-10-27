@@ -1,11 +1,1 @@
 #!/bin/bash
-cd /home/ubuntu/django
-source myprojectenv/bin/activate
-cd backend
-cd fypdjango
-python manage.py runserver
-cd ..
-cd ..
-cd frontend
-cd fypreact
-npm start
