@@ -15,7 +15,6 @@ hooks:
   AfterInstall:
     -location : /after_install
       timeout :30
-      runas: root
   ApplicationStop:
     - location: /stop_server
       timeout: 30
