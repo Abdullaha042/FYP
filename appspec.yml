@@ -2,7 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/fyp
+    destination: /projects/fyp
+    overwrite: true
 hooks:
   BeforeInstall:
     - location: /install_dependencies
