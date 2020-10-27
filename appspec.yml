@@ -12,7 +12,10 @@ hooks:
     - location: /start_server
       timeout: 30
       runas: root
-    - AfterInstall: /after_install
+  AfterInstall:
+    -location : /after_install
+      timeout :30
+      runas: root
   ApplicationStop:
     - location: /stop_server
       timeout: 30
