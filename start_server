@@ -1,0 +1,9 @@
+#!/bin/bash
+cd backend
+cd fypdjango
+python manage.py runserver
+cd ..
+cd ..
+cd frontend
+cd fypreact
+npm start
