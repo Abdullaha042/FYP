@@ -1,4 +1,6 @@
 #!/bin/bash
+cd /home/ubuntu/django
+source myprojectenv/bin/activate
 cd backend
 cd fypdjango
 python manage.py runserver
